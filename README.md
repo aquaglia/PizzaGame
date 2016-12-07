@@ -31,3 +31,15 @@ Il primo giocatore che mangia la pizza avvelenata perde.
 - qualora il candidato decida di realizzare un programma standalone, è preferibile l'utilizzo di un linguaggio di programmazione ad oggetti (C#, Java)
 - qualora il candidato decida di realizzare un'applicazione web, è preferibile l'adozione di Html, Css e Javascript
 - al termine dello sviluppo effettuare una **pull request** sul repository corrente contenente i sorgenti e le istruzioni per eseguire il programma realizzato 
+
+Angelo Quaglia
+La soluzione di compone di due progetti il cui build e' basato su Maven
+StudioFarmaJavaLibrary
+	contiene la business logic e gli unit test di cui uno implementa l'esempio di gioco riportato sopra
+StudioFarmaWebApplication
+	contiene i web service REST che espongono la business logic
+	una semplice web app mono-pagina basata su HTML/css.Javascript come da voi richiesto
+Istruzioni:
+	eseguire il Maven build
+	fare deploy su Tomcat 8 (o simili, p.es. Jetty)
+	
